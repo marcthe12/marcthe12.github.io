@@ -1,5 +1,7 @@
 brand: Marc
-brand_link: #
-pages:
+brand_link: /
+link:
 - title: Home
-  url: #
+  url: /
+- title: Blog
+  url: /blog

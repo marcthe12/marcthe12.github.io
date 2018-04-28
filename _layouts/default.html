@@ -34,13 +34,13 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <a class="navbar-brand" href="{{site.data.nav.brand_link}}"><b>{{site.data.nav.brand}}</b></a>
+            <a class="navbar-brand" href="{{ site.data.nav.brand_link }}"><b>{{site.data.nav.brand}}</b></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapsed">
                 <i class="material-icons">menu</i>
             </button>
             <div class="collapse navbar-collapse" id="navbar-collapsed">
                 <ul class="navbar-nav">
-                    {% for item in site.data.nav.pages %}
+                    {% for item in site.data.nav.link %}
                         <li class="nav-item">
                             <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
                         </li>

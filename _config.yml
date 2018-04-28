@@ -2,3 +2,9 @@ markdown: kramdown
 timezone: Asia/Singapore
 repository: marcthe12/marcthe12.github.io
 google_analytics: UA-97715837-2
+disqus-url: marcthe12-github-io.disqus.com
+permalink: /blog/:year/:month/:day/:title
+
+
+plugins:
+  - jekyll-sitemap
