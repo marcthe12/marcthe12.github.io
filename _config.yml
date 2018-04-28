@@ -1,3 +1,4 @@
-name: Test
 markdown: kramdown
-timezone:      Asia/Singapore
+timezone: Asia/Singapore
+repository: marcthe12/marcthe12.github.io
+google_analytics: UA-97715837-2
