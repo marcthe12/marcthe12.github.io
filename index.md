@@ -1,4 +1,0 @@
----
-Layout: Default
----
-Hello
